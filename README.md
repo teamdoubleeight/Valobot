@@ -32,17 +32,15 @@
 <!-- Inspired by Red Discord Bot -->
 <!-- https://github.com/Cog-Creators/Red-DiscordBot -->
 
-## Note ⚠️
-- will not receive updates until v4.0.0 will be finished. sorry 😭
-- `
-I'm a student and I have to divide my study time with this project.`
+## 노트 ⚠️
+- 이 프로젝트는 staciax님의 오픈소스 봇인 Valorant-DiscordBot을 기반으로 만들어졌습니다.
+- 모든 권리는 staciax에게 있지만, 발로봇이 만든 그 외에 모든 것들의 권리는 Team DoubleEight에게 있습니다.
 
 # About
 
-Discord bot that shows your information and more without opening VALORANT by using
-the [In-game API.][ValorantClientAPI]
-written using Python and the [Discord.py][DiscordPy] library <br>
-If you need help regarding Valorant Discord Bot, please join the [support server][Support]
+인게임 내 상점,야시장 등을 보여주고, 스킨 알림, 티어인증과 같은
+편리한 것들을 사용할 수 있는 좋은 봇입니다.
+Python 3으로 만들어졌으며, Discord.py를 사용합니다 <br>
 
 ## Installation
 
