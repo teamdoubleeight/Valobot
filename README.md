@@ -2,26 +2,20 @@
   <br>
   <a href="https://github.com/staciax/ValorantStoreChecker-discord-bot"></a>
   <br>
-  Valorant Discord Bot
+  발로봇 - 한국인들의 발로란트 봇
   <br>
 </h1>
 
-<h4 align="center">Store, Nightmarket, Battlepass, Missions, Bundle, Notify</h4>
+<h4 align="center">상점, 야시장, 스킨 알림등을 한번에!</h4>
 
 <p align="center">
-  <a href="https://discord.gg/RaCzsPnfNM">
-      <img src="https://discordapp.com/api/guilds/887274968012955679/widget.png" alt="Support Server">
-    </a>
-  <a href="https://github.com/staciax/ValorantStoreChecker-discord-bot">
-     <img src="https://img.shields.io/github/v/release/staciax/ValorantStoreChecker-discord-bot" alt="release">
+  <a href="https://github.com/teamdoubleeight/Valobot">
+     <img src="https://img.shields.io/github/v/release/teamdoubleeight/Valobot" alt="release">
   </a>
   <a href="https://github.com/Rapptz/discord.py/">
      <img src="https://img.shields.io/badge/discord-py-blue.svg" alt="discord.py">
-  </a>
-    <a title="Crowdin" target="_blank" href="https://crowdin.com/project/discord-bot-valorant"><img src="https://badges.crowdin.net/discord-bot-valorant/localized.svg">
- </a>
- <a href="https://github.com/staciax/ValorantStoreChecker-discord-bot/blob/master/LICENSE">
-     <img src="https://img.shields.io/github/license/staciax/ValorantStoreChecker-discord-bot" alt="License">
+ <a href="https://github.com/teamdoubleeight/Valobot/blob/main/LICENSE">
+     <img src="https://img.shields.io/github/license/teamdoubleeight/Valobot" alt="License">
 
 </p>
 
