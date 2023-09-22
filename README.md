@@ -58,59 +58,6 @@ the [In-game API.][ValorantClientAPI]
 written using Python and the [Discord.py][DiscordPy] library <br>
 If you need help regarding Valorant Discord Bot, please join the [support server][Support]
 
-## Heroku
-- [ ⚠️ Heroku announces plans to eliminate free plans][Heroku_announce]
-> Important: Please note that dynos will have be restarted every **24 hours**. All changes to the local filesystem will be deleted, which means you'll have to relogin using `/login` once the 24-hour limit is reached. Read more about automatic dyno restarts [here][Heroku].
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-- [Youtube Tutorial][Tutorial]
-
-## Repl.it
-
-> Important: All projects under the Repl.it free plan are public. To solve the privacy problem, all data is stored in the Repl.it Database, but the Repl.it Database is slow to read and it takes time to execute commands. (Cache system to be updated)
-
-[![Run on Repl.it](https://replit.com/badge/github/staciax/Valorant-DiscordBot)](https://replit.com/new/github/staciax/Valorant-DiscordBot)
-
-P.S. need to add 2 secrets: `TOKEN` and `OWNER_ID`, need to use [Uptimerobot](https://uptimerobot.com/) or other services to keep the bot alive.
-## Docker
-
-To simply install the latest stable version, run
-
-```
-docker pull marchingon12/valorant-bot
-```
-
-If using Docker Desktop (GUI), run using environmental variables under "Optional Settings". Put in your TOKEN and OWNER_ID.
-
-<p align="center">
-  <img src="https://github.com/marchingon12/Valorant-DiscordBot/blob/master/resources/docker_Container.png?raw=true" width=450px >
-</p>
-
-If using Docker-CLI, you have to manually put in your env vars in a single line like this:
-
-```
-docker run -e TOKEN=<YOUR_BOT_TOKEN> -e OWNER_ID=<YOUR_OWNER_ID> marchingon12/valorant-bot
-```
-
-or use `--env-file` to point to the path you stored your env file. Read more info on how to do so [here](https://docs.docker.com/engine/reference/commandline/run/#set-environment-variables--e---env---env-file).
-
-View on Docker image on [DockerHub](https://hub.docker.com/r/marchingon12/valorant-bot).
-
-
-## Screenshots
-
-* Embed Design by [Giorgio][Giorgio]
-
-![image](https://i.imgur.com/uF9THEa.png)
-![image](https://i.imgur.com/ijjvQV3.png)
-<details>
-<summary>See more screenshots</summary>
-<img src="https://i.imgur.com/GhzLBSr.png" alt="battlepass">
-<img src="https://i.imgur.com/f0gXUoo.png" alt="nightmarket">
-<img src="https://i.imgur.com/Q7q6tUU.png" alt="missions">
-<img src="https://i.imgur.com/5jEZt3Z.png" alt="points">
-</details>
-
 ## Installation
 
 * [Python 3.8+](https://www.python.org/downloads/)
