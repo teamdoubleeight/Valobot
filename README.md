@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/staciax/ValorantStoreChecker-discord-bot"></a>
+  <a href="https://github.com/teamdoubleeight/Valobot"></a>
   <br>
   발로봇 - 한국인들의 발로란트 봇
   <br>
