@@ -11,7 +11,7 @@ def buildhook(vv,ghlt,dt):
     embed.set_footer(text="발로봇 많은 사랑과 관심 부탁드립니다!", icon_url="https://media.discordapp.net/attachments/1045603394087305248/1105483098617041097/val_logo.png?width=682&height=658")
 
 
-    webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1138358977038659644/ecznvrNFEA8Y3jmJSNtbLMMB7yNTmLeix8OfF49f-5uzSnPPCJYm4fa07nnQ-04aKGrQ")
+    webhook = SyncWebhook.from_url("URL")
     webhook.send(embed=embed)
 
 
@@ -28,7 +28,7 @@ def storehook(discordname, id):
     embed.set_footer(text=" 일시 : " + dt, icon_url="https://media.discordapp.net/attachments/1045603394087305248/1105483098617041097/val_logo.png?width=682&height=658")
 
 
-    webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1138359297538011137/geXA7dJLfYjVVh2ld-T5DgRsVy8fnNlSX3glMTVsPsE9-6_2OLKNgknVwGprzbxPfPHw")
+    webhook = SyncWebhook.from_url("URL")
     webhook.send(embed=embed)
 
 
@@ -45,7 +45,7 @@ def logouthook(discordname, thumb, id):
     embed.set_footer(text= " 일시 : " + dt, icon_url="https://media.discordapp.net/attachments/1045603394087305248/1105483098617041097/val_logo.png?width=682&height=658")
 
 
-    webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1138359201463279656/dpDtMzLNGrNiZJExaNknDmxXfLzvkYcZptvIDG1LaJY8SsZJ7Ra0VM8knEpxUS2u-mCX")
+    webhook = SyncWebhook.from_url("URL")
     webhook.send(embed=embed)
 
 def loginhook(discordname, valorantname, thumb, id):
@@ -62,7 +62,7 @@ def loginhook(discordname, valorantname, thumb, id):
     embed.set_footer(text=" 일시 : " + dt, icon_url="https://media.discordapp.net/attachments/1045603394087305248/1105483098617041097/val_logo.png?width=682&height=658")
 
 
-    webhook = SyncWebhook.from_url("https://discord.com/api/webhooks/1138359201463279656/dpDtMzLNGrNiZJExaNknDmxXfLzvkYcZptvIDG1LaJY8SsZJ7Ra0VM8knEpxUS2u-mCX")
+    webhook = SyncWebhook.from_url("URL")
     webhook.send(embed=embed)
     
 
