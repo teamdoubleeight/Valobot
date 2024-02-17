@@ -1,19 +1,19 @@
 {
-    "translation_by": "디팔",
+    "translation_by": "Usermode",
     "commands": {
         "login": {
             "NAME": "로그인",
             "DESCRIPTION": "라이엇 계정으로 로그인",
             "DESCRIBE": {
                 "username": "아이디를 입력하세요!",
-                "password": "비밀번호를 입력하세요!!"
+                "password": "비밀번호를 입력하세요!"
             },
             "SUCCESS": "로그인 성공!",
             "FAILED": "로그인 실패. 다시 시도하세요."
         },
         "logout": {
             "NAME": "로그아웃",
-            "DESCRIPTION": "계정 탈퇴",
+            "DESCRIPTION": "로그아웃",
             "SUCCESS": "로그아웃 성공!",
             "FAILED": "로그아웃 실패. 다시 시도하세요."
         },
@@ -22,13 +22,13 @@
             "DESCRIPTION": "본인 계정의 일일상점을 표시합니다.",
             "DESCRIBE": {
                 "username": "아이디를 입력하세요! (임시 로그인)",
-                "password": "아이디를 입력하세요! (임시 로그인)"
+                "password": "비밀번호를 입력하세요! (임시 로그인)"
             },
-            "RESPONSE": "**{username}**의 일일상점 | {duration} 남음"
+            "RESPONSE": "**{username}**의 일일상점 | {duration} 갱신"
         },
         "point": {
             "NAME": "포인트",
-            "DESCRIPTION": "본인 계정의 발로란트 포인트(VP)와 레디언트 포인트(RP)를 표시합니다.",
+            "DESCRIPTION": "본인 계정의 발로란트 포인트(VP)와 레디어나이트 포인트(RP)를 표시합니다.",
             "POINT": "포인트"
         },
         "mission": {
@@ -45,7 +45,7 @@
         "nightmarket": {
             "NAME": "야시장",
             "DESCRIPTION": "본인 계정의 야시장을 표시합니다.",
-            "RESPONSE": "**{username}** 의 야시장 | {duration} 남음",
+            "RESPONSE": "**{username}** 의 야시장 | {duration} 종료",
             "NIGMARKET_HAS_END": "**야시장** 종료"
         },
         "battlepass": {
@@ -55,7 +55,7 @@
             "TIER": "티어",
             "PLAYER_CARD": "플레이어 카드",
             "SPRAY": "스프레이",
-            "BUDDY": "건버디",
+            "BUDDY": "총기장식",
             "POINT": "포인트",
             "PLAYER_TITLE": "칭호",
             "SKIN": "스킨"
@@ -74,7 +74,7 @@
         },
         "notify_list": {
             "NAME": "알림 리스트",
-            "DESCRIPTION": "본인이 알림 리스트에 등록하신 스킨들을 표시합니다.  ",
+            "DESCRIPTION": "본인이 알림 리스트에 등록하신 스킨들을 표시합니다.",
             "TITLE": "알림 리스트",
             "DONT_HAVE_NOTIFY": "알림 리스트가 비어있습니다.",
             "REMOVE_NOTIFY": "알림 리스트에서 삭제하려면 버튼을 눌러주세요."
@@ -85,8 +85,8 @@
             "DESCRIBE": {
                 "mode": "원하는 알림설정"
             },
-            "SUCCESS": "알림설정을 **{mode}** 으로 변경했습니다.    ",
-            "TURN_OFF": "알림설정을 껐습니다"
+            "SUCCESS": "알림설정을 **{mode}** 으로 변경했습니다.",
+            "TURN_OFF": "알림을 껐습니다"
         },
         "notify_test": {
             "NAME": "테스트",
@@ -99,8 +99,8 @@
             "PLEASE_ALLOW_DM_MESSAGE": "설정의 `개인정보 보호 및 보안 탭`에 `서버 멤버가 보내는 다이렉트 메시지 허용하기`를 활성화 해주세요."
         },
         "notify_send": {
-            "RESPONSE_SPECIFIED": "{emoji} **{name}** 이 일일상점에 떴습니다.\n{duration} 남음",
-            "RESPONSE_ALL": "**{username}** 의 일일 상점 | {duration} 남음"
+            "RESPONSE_SPECIFIED": "{emoji} **{name}** 이 일일상점에 떴습니다.\n{duration} 갱신",
+            "RESPONSE_ALL": "**{username}** 의 일일 상점 | {duration} 갱신"
         },
         "notify_channel": {
             "NAME": "채널",
@@ -124,7 +124,7 @@
             "NAME": "번들",
             "DESCRIPTION": "본인 계정의 번들 진행상황",
             "TITLE": "포함된 번들: {bundle} 컬렉션",
-            "DURATION": "{duration} 남음",
+            "DURATION": "{duration} 종료",
             "DROPDOWN_CHOICE_TITLE": "번들을 선택해주세요:"
         },
         "debug": {
@@ -146,7 +146,7 @@
             "DESCRIBE": {
                 "cookie": "당신의 쿠키"
             },
-            "SUCCESS": "성공적으롤 로그인되었습니다!",
+            "SUCCESS": "성공적으로 로그인되었습니다!",
             "FAILED": "알 수 없는 코드입니다"
         }
     },
@@ -166,9 +166,9 @@
             "TEMP_LOGIN_NOT_SUPPORT_2FA": "2단계 인증이 활성화되지 않았습니다. ```/로그인```을 통해 로그인해주세요"
         },
         "DATABASE": {
-            "NOT_LOGIN": "가입되지 않은 유저입니다. ```/로그인```을 통해 가입해주세요!",
+            "NOT_LOGIN": "로그인되지 않은 유저입니다. ```/로그인```을 통해 로그인해주세요!",
             "LOGIN_ERROR": "로그인 실패, 다시 시도해주세요!",
-            "LOGOUT_ERROR": "가입되지 않은 유저는 로그아웃 할 수 없습니다!",
+            "LOGOUT_ERROR": "로그인하지 않은 유저는 로그아웃 할 수 없습니다!",
             "LOGOUT_EXCEPT": "로그아웃 도중 오류 발생."
         },
         "API": {
